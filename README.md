@@ -1,20 +1,22 @@
 # 🛡️ KeySentry
 
-> 🔍 **KeySentry**: Find leaked API keys & secrets in any GitHub repo. No mercy.
+> 🔍 **KeySentry**: Find leaked API keys & secrets in any GitHub repo or local project. No mercy.
 
-A powerful, no-nonsense CLI tool to **detect unsecured API keys, tokens, and sensitive files** in any GitHub repository.
+A powerful, no-nonsense CLI tool to **detect unsecured API keys, tokens, and sensitive files** across GitHub repositories or local codebases.
 
-Inspired by sites like UnsecuredAPIKeys.com — but now you control the scanner. Offline. Local. Fast. Accurate.
+Inspired by platforms like UnsecuredAPIKeys.com — now fully offline, fast, and under your command.
 
 ---
 
 ## 🚀 Features
 
-- 🔎 Scans for 25+ common API key formats (AWS, Stripe, OpenAI, etc.)
-- 🧠 Regex-based + entropy-like precision
-- 🗂️ Flags sensitive files like `.env`, `credentials.json`, `firebase.json`, `id_rsa`, etc.
-- 💾 Outputs findings in a structured JSON log
-- 🔧 Lightweight CLI — no GitHub API token required
+- 🔎 Scans for 25+ common API key formats (AWS, Slack, Stripe, OpenAI, etc.)
+- 🧠 Regex + entropy-inspired patterns for high accuracy
+- 🗂️ Flags sensitive files like `.env`, `id_rsa`, `firebase.json`, and more
+- 💾 Outputs structured results to JSON
+- 🧩 Supports both GitHub repo URLs and **local folder paths**
+- 💻 No need for GitHub API tokens
+- ⚡ Styled terminal banner and colored logs
 
 ---
 
@@ -23,13 +25,6 @@ Inspired by sites like UnsecuredAPIKeys.com — but now you control the scanner.
 ```bash
 git clone https://github.com/AdityaBhatt3010/KeySentry.git
 cd KeySentry
-python3 keysentry_scanner.py --repo https://github.com/username/repo-name --output results.json
-```
-
-Optional:
-
-```bash
-python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -37,13 +32,34 @@ pip install -r requirements.txt
 
 ## 🧪 Usage
 
-### 🔍 Scan a GitHub repo for secrets:
+### 🔍 Scan a GitHub repository:
 
 ```bash
-python keysentry_scanner.py --repo https://github.com/username/repo-name --output results.json
+python KeySentry.py --repo https://github.com/username/repo-name --output results.json
 ```
 
-### 📁 Sample Output:
+### 💻 Scan a local directory:
+
+```bash
+python KeySentry.py --local /path/to/codebase --output results_local.json
+```
+
+---
+
+## 📸 Screenshots
+
+### 🎯 Scanning GitHub Repo
+![GitHub Scan](Screenshots/KeySentry.png)
+
+### 💻 Scanning Local Directory
+![Local Scan](Screenshots/KeySentry_local.png)
+
+### 🆘 Help Menu
+![Help](Screenshots/Help.png)
+
+---
+
+## 📁 Sample Output
 
 ```json
 [
@@ -62,44 +78,42 @@ python keysentry_scanner.py --repo https://github.com/username/repo-name --outpu
 
 ---
 
-## 🕵️‍♂️ What It Detects
+## 🔐 What It Detects
 
-### 🔐 API Keys:
+### API Keys:
 
-* AWS, Google, Slack, Stripe, OpenAI, SendGrid, Twilio
-* GitHub PATs, DigitalOcean, Heroku, Mailgun, Firebase
-* Cloudflare, JWTs, Facebook, Dropbox, Azure, Netlify
-* Notion, Terraform Cloud, CircleCI, RSA Private Keys
-* BasicAuth URLs, Generic Base64 tokens
+- AWS, Google, Slack, Stripe, OpenAI, SendGrid, Twilio
+- GitHub, DigitalOcean, Heroku, Mailgun, Firebase
+- Cloudflare, JWT, Facebook, Dropbox, Azure
+- Netlify, Notion, Terraform, CircleCI, BasicAuth
+- RSA Private Keys, Base64 tokens, and more
 
-### ⚠️ Sensitive Files:
+### Sensitive Files:
 
-* `.env`, `.env.local`, `.env.production`, `.aws/credentials`
-* `credentials.json`, `firebase.json`, `.dockercfg`, `id_rsa`, etc.
-
----
-
-## 🧠 Future Developments
-
-* ✅ Regex-based API key + sensitive file detection
-* ✅ `.env` / `.aws/credentials` and other dangerous file flagging
-* 🔜 **Live key validation** (e.g. OpenAI, AWS check if token still works)
-* 🔜 **Local repo scan** (e.g., `--local /path/to/repo`)
-* 🔜 **GitHub user-wide scan** (scan all public repos of a GitHub username)
-* 🔜 GitHub org-wide scanner with batch mode
-* 🔜 FastAPI dashboard with SQLite + graph visualizations
-* 🔜 Telegram/Discord alert integration for teams
+- `.env`, `.env.local`, `.aws/credentials`, `.dockercfg`
+- `credentials.json`, `firebase.json`, `id_rsa`, `.pypirc`, etc.
 
 ---
 
-## 🧠 Credits
+## 🧠 Future Roadmap
 
-Crafted with ❤️ by [Aditya Bhatt](https://github.com/AdityaBhatt3010) — Cybersecurity & VAPT Specialist.
+- ✅ Full local & GitHub scanning
+- ✅ Structured JSON reporting
+- 🔜 Live token validation (OpenAI/AWS, etc.)
+- 🔜 GitHub username/org-wide scan
+- 🔜 FastAPI dashboard w/ SQLite visualization
+- 🔜 Discord/Telegram alert integrations
+
+---
+
+## 👨‍💻 Crafted By
+
+Made with ❤️ by [Aditya Bhatt](https://github.com/AdityaBhatt3010) — Cybersecurity & VAPT Specialist.
 
 ---
 
 ## ⚠️ Disclaimer
 
-For educational & auditing use only. Do **not** use this tool on repositories you don't own or lack explicit permission to scan.
+For educational & auditing use only. Do **not** use this tool on repositories you don't own or lack permission to scan.
 
 ---

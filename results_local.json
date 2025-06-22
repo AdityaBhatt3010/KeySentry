@@ -1,0 +1,257 @@
+[
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "AWS",
+        "match": "AKIAIOSFODNN7EXAMPLE"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Slack",
+        "match": "xoxb-123456789012"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Stripe",
+        "match": "sk_live_4eC39HqLyjWDarjtT1zdp7dc"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Twilio",
+        "match": "SK98e1a4f074dd4a4381234567890abcde"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Mailgun",
+        "match": "key-1234567890abcdef1234567890abcdef"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "DigitalOcean",
+        "match": "dop_v1_abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Cloudflare",
+        "match": "Bearer abcdef1234567890abcdef1234567890abcdef12"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "JWT",
+        "match": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkR1bW15VXNlciJ9.DUMMYsignature123456"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "RSA Private Key",
+        "match": "-----BEGIN RSA PRIVATE KEY-----"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Facebook",
+        "match": "EAACEdEose0cBAabcdef1234567890XYZ"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Azure Storage",
+        "match": "DefaultEndpointsProtocol=https;AccountName=myaccount;AccountKey=AbCdEfGh123456789+/="
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Dropbox",
+        "match": "sl.ABCD1234EFGH5678IJKL9012MNOP3456"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Netlify",
+        "match": "Bearer abcdef1234567890abcdef1234567890abcdef12"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Terraform",
+        "match": "tfr_AbCdEfGhIjKlMnOpQrStUvWxYz123456"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "CircleCI",
+        "match": "circle-token abcdef1234567890abcdef1234567890abcdef12"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "BasicAuth",
+        "match": "https://user:heroku1234567890abcdef1234567890abcd@"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Generic Base64",
+        "match": "SK98e1a4f074dd4a4381234567890abcde"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Generic Base64",
+        "match": "1234567890abcdefghijklmnopqrstuvwx"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Generic Base64",
+        "match": "rxD8bEXAMPLEexMPLExMPLed6zWq2zW6lKq8WYfG8LJv"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Generic Base64",
+        "match": "heroku1234567890abcdef1234567890abcd"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Generic Base64",
+        "match": "1234567890abcdef1234567890abcdef"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Generic Base64",
+        "match": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Generic Base64",
+        "match": "abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Generic Base64",
+        "match": "EAACEdEose0cBAabcdef1234567890XYZ"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Generic Base64",
+        "match": "ABCD1234EFGH5678IJKL9012MNOP3456"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Generic Base64",
+        "match": "abcdefghijklmnopqrstuvwx1234567890ABCDE"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Generic Base64",
+        "match": "abcdef1234567890abcdef1234567890abcdef12"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Generic Base64",
+        "match": "AbCdEfGhIjKlMnOpQrStUvWxYz123456"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Generic Base64",
+        "match": "abcdef1234567890abcdef1234567890abcdef12"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Generic Base64",
+        "match": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Generic Base64",
+        "match": "eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkR1bW15VXNlciJ9"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\Dummy_Leaky_Script.py",
+        "type": "Generic Base64",
+        "match": "MIIEpAIBAAKCAQEAvfNbfYB2yc9NpWc2M/"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\.git\\FETCH_HEAD",
+        "type": "Generic Base64",
+        "match": "9e902504fa6a3ae05c58c432457705898652a5c0"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\.git\\logs\\HEAD",
+        "type": "Generic Base64",
+        "match": "0000000000000000000000000000000000000000"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\.git\\logs\\HEAD",
+        "type": "Generic Base64",
+        "match": "ebc4bf59e1319087421b6e2590c6ae4555088605"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\.git\\logs\\HEAD",
+        "type": "Generic Base64",
+        "match": "ebc4bf59e1319087421b6e2590c6ae4555088605"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\.git\\logs\\HEAD",
+        "type": "Generic Base64",
+        "match": "9e902504fa6a3ae05c58c432457705898652a5c0"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\.git\\logs\\refs\\heads\\main",
+        "type": "Generic Base64",
+        "match": "0000000000000000000000000000000000000000"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\.git\\logs\\refs\\heads\\main",
+        "type": "Generic Base64",
+        "match": "ebc4bf59e1319087421b6e2590c6ae4555088605"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\.git\\logs\\refs\\heads\\main",
+        "type": "Generic Base64",
+        "match": "ebc4bf59e1319087421b6e2590c6ae4555088605"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\.git\\logs\\refs\\heads\\main",
+        "type": "Generic Base64",
+        "match": "9e902504fa6a3ae05c58c432457705898652a5c0"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\.git\\logs\\refs\\remotes\\origin\\HEAD",
+        "type": "Generic Base64",
+        "match": "0000000000000000000000000000000000000000"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\.git\\logs\\refs\\remotes\\origin\\HEAD",
+        "type": "Generic Base64",
+        "match": "ebc4bf59e1319087421b6e2590c6ae4555088605"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\.git\\logs\\refs\\remotes\\origin\\HEAD",
+        "type": "Generic Base64",
+        "match": "9e902504fa6a3ae05c58c432457705898652a5c0"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\.git\\logs\\refs\\remotes\\origin\\HEAD",
+        "type": "Generic Base64",
+        "match": "9e902504fa6a3ae05c58c432457705898652a5c0"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\.git\\logs\\refs\\remotes\\origin\\main",
+        "type": "Generic Base64",
+        "match": "0000000000000000000000000000000000000000"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\.git\\logs\\refs\\remotes\\origin\\main",
+        "type": "Generic Base64",
+        "match": "ebc4bf59e1319087421b6e2590c6ae4555088605"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\.git\\logs\\refs\\remotes\\origin\\main",
+        "type": "Generic Base64",
+        "match": "ebc4bf59e1319087421b6e2590c6ae4555088605"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\.git\\logs\\refs\\remotes\\origin\\main",
+        "type": "Generic Base64",
+        "match": "9e902504fa6a3ae05c58c432457705898652a5c0"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\.git\\refs\\heads\\main",
+        "type": "Generic Base64",
+        "match": "9e902504fa6a3ae05c58c432457705898652a5c0"
+    },
+    {
+        "file": "C:\\Users\\Adi\\Desktop\\KeySentry\\.git\\refs\\remotes\\origin\\main",
+        "type": "Generic Base64",
+        "match": "9e902504fa6a3ae05c58c432457705898652a5c0"
+    }
+]
