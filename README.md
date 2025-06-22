@@ -6,6 +6,8 @@ A powerful, no-nonsense CLI tool to **detect unsecured API keys, tokens, and sen
 
 Inspired by platforms like UnsecuredAPIKeys.com — now fully offline, fast, and under your command.
 
+![KeySentry_Cover](https://github.com/user-attachments/assets/2ed270c6-802b-437e-9943-d49f340e7c38) <br/>
+
 ---
 
 ## 🚀 Features
