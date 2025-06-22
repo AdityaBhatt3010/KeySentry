@@ -53,27 +53,34 @@ def clone_repo(repo_url):
     subprocess.run(["git", "clone", repo_url, temp_dir], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     return temp_dir
 
-def scan_file(file_path):
+def scan_file(file_path, seen_matches):
     matches = []
     try:
         with open(file_path, "r", errors="ignore") as f:
             content = f.read()
             for key_type, pattern in key_patterns.items():
                 for match in re.findall(pattern, content):
-                    matches.append({"file": file_path, "type": key_type, "match": match})
+                    key = (key_type, match)
+                    if key not in seen_matches:
+                        seen_matches.add(key)
+                        matches.append({"file": file_path, "type": key_type, "match": match})
     except:
         pass
     return matches
 
 def scan_repo(path):
     leaks = []
+    seen_matches = set()
     for root, _, files in os.walk(path):
         for file in files:
             full_path = os.path.join(root, file)
-            leaks.extend(scan_file(full_path))
+            leaks.extend(scan_file(full_path, seen_matches))
             for sensitive_file in sensitive_filenames:
                 if file.endswith(sensitive_file) or sensitive_file in full_path:
-                    leaks.append({"file": full_path, "type": "Sensitive File", "match": sensitive_file})
+                    key = ("Sensitive File", sensitive_file)
+                    if key not in seen_matches:
+                        seen_matches.add(key)
+                        leaks.append({"file": full_path, "type": "Sensitive File", "match": sensitive_file})
     return leaks
 
 def main():
@@ -95,7 +102,7 @@ def main():
     print(colored("[*] Scanning for secrets and sensitive files...", "yellow"))
     leaks = scan_repo(repo_path)
 
-    print(colored(f"[*] {len(leaks)} potential issues found.", "red" if leaks else "green"))
+    print(colored(f"[*] {len(leaks)} unique issues found.", "red" if leaks else "green"))
     with open(args.output, "w") as out:
         json.dump(leaks, out, indent=4)
 
