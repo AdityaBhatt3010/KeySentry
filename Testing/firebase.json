@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "//": "DISCLAIMER: The credentials below are entirely FAKE and used solely for testing and demonstration purposes with the KeySentry tool. Any resemblance to real keys is purely coincidental.",
 
@@ -8,14 +7,3 @@
   "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBg...",
   "client_email": "firebase-adminsdk@dummy.iam.gserviceaccount.com"
 }
-=======
-{
-  "//": "DISCLAIMER: The credentials below are entirely FAKE and used solely for testing and demonstration purposes with the KeySentry tool. Any resemblance to real keys is purely coincidental.",
-
-  "type": "service_account",
-  "project_id": "dummy-project",
-  "private_key_id": "1234567890abcdef",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBg...",
-  "client_email": "firebase-adminsdk@dummy.iam.gserviceaccount.com"
-}
->>>>>>> f8f51a5960a348f88bebd1d58d2660937c476d8e
