@@ -4,7 +4,7 @@
 
 A powerful, no-nonsense CLI tool to **detect unsecured API keys, tokens, and sensitive files** across GitHub repositories or local codebases.
 
-Inspired by platforms like UnsecuredAPIKeys.com — now fully offline, fast, and under your command.
+![1750619361869](https://github.com/user-attachments/assets/ac5f8c7d-3f36-4815-a8de-b7abbfe5be9f) <br/>
 
 ---
 
