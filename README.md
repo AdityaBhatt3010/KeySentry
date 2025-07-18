@@ -1,8 +1,3 @@
-Here’s the final updated **README.md** with the `docker pull` command added under **Installation** — clean, concise, and complete:
-
----
-
-````markdown
 # 🛡️ KeySentry
 
 > 🔍 **KeySentry**: Find leaked API keys & secrets in any GitHub repo or local project. No mercy.
@@ -113,10 +108,6 @@ docker run --rm adityabhatt3010/keysentry --repo https://github.com/username/rep
 ![Docker Build](Screenshots/Docker_ <br/>Build_Image.png)
 
 ![Docker Run](Screenshots/Docker_Run_Imag <br/>e.png)
-
-
-
-
 
 ---
 
