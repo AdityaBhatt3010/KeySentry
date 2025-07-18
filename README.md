@@ -4,7 +4,7 @@
 
 A powerful, no-nonsense tool to **detect unsecured API keys, tokens, and sensitive files** — either via **command-line scan** or a **beautifully built frontend web scanner**.
 
-![KeySentry Cover](https://github.com/user-attachments/assets/ac5f8c7d-3f36-4815-a8de-b7abbfe5be9f) <br/>
+![a-dark-cyberpunk-themed-digital-poster-w_-YePJ_1tRI2sxaEUqdGSIQ_a62RDOYRQqOHTq_0JMh4zg](https://github.com/user-attachments/assets/0f0d606f-0d36-4afc-8412-f205ede686e3) <br/>
 
 ---
 
