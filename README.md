@@ -170,8 +170,3 @@ Made with ❤️ by [Aditya Bhatt](https://github.com/AdityaBhatt3010) — Cyber
 For educational & auditing use only. Do **not** use this tool on repositories you don't own or lack permission to scan.
 
 ---
-
-```
-
-Let me know if you want a separate `README.md` just for the **frontend** under `project/`, or if you'd like me to auto-push this to your GitHub repo.
-```
