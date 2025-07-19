@@ -89,11 +89,11 @@ docker run --rm adityabhatt3010/keysentry --repo https://github.com/username/rep
 
 ### 🌐 Web Interface Scanner
 
-![Frontend Scanner](Screenshots/Site_Scanner.jpg) <br/>
+![Frontend Scanner](Screenshots/Site_Scanner.png) <br/>
 
-![Frontend Results](Screenshots/Site_Results.jpg) <br/>
+![Frontend Results](Screenshots/Site_Results.png) <br/>
 
-![Frontend Analytics](Screenshots/Site_Analytics.jpg) <br/>
+![Frontend Analytics](Screenshots/Site_Analytics.png) <br/>
 
 ### 🧪 CLI Scaner
 
@@ -105,9 +105,9 @@ docker run --rm adityabhatt3010/keysentry --repo https://github.com/username/rep
 
 ### ⚙️ Docker Build & Run
 
-![Docker Build](Screenshots/Docker_Build_Image.png)
+![Docker Build](Screenshots/Docker_Build_Image.png) <br/>
 
-![Docker Run](Screenshots/Docker_Run_Image.png)
+![Docker Run](Screenshots/Docker_Run_Image.png) <br/>
 
 ---
 
