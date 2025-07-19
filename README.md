@@ -105,9 +105,9 @@ docker run --rm adityabhatt3010/keysentry --repo https://github.com/username/rep
 
 ### ⚙️ Docker Build & Run
 
-![Docker Build](Screenshots/Docker_ <br/>Build_Image.png)
+![Docker Build](Screenshots/Docker_Build_Image.png)
 
-![Docker Run](Screenshots/Docker_Run_Imag <br/>e.png)
+![Docker Run](Screenshots/Docker_Run_Image.png)
 
 ---
 
