@@ -133,12 +133,12 @@ No noise. Just clean, actionable results.
 
 ## 🧠 Roadmap
 
-✅ Full local & GitHub scanning
-✅ JSON reporting
-✅ Docker support
-🔜 GitHub org-wide scans
-🔜 FastAPI dashboard + SQLite storage
-🔜 Discord/Telegram alerts
+✅ Full local & GitHub scanning <br/>
+✅ JSON reporting <br/>
+✅ Docker support <br/>
+🔜 GitHub org-wide scans <br/>
+🔜 FastAPI dashboard + SQLite storage <br/>
+🔜 Discord/Telegram alerts <br/>
 
 ---
 
