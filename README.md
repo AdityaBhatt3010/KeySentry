@@ -21,6 +21,31 @@ A powerful, no-nonsense tool to **detect unsecured API keys, tokens, and sensiti
 
 ---
 
+## 🆕 Latest Update
+
+### 🛡️ YARA Detection Rule Added
+
+KeySentry now includes **KeySentry.yar**, a YARA rule designed to detect exposed API keys, authentication tokens, cloud credentials, private keys, and sensitive configuration files commonly found in source code repositories.
+
+The rule currently supports detection of secrets associated with:
+
+* AWS, Google Cloud, Slack, Stripe, OpenAI
+* GitHub, Twilio, SendGrid, DigitalOcean
+* Firebase, Cloudflare, Heroku, Mailgun
+* Azure Storage, Dropbox, Notion
+* Terraform Cloud, CircleCI, Facebook and more
+
+It also identifies commonly leaked sensitive files such as:
+
+* `.env`, `.env.local`, `.env.production`
+* `credentials.json`, `firebase.json`
+* `.aws/credentials`, `.npmrc`
+* `id_rsa`, `id_rsa.pub`, `.pypirc`
+
+This addition enables defenders, threat hunters, malware analysts, and security researchers to leverage KeySentry's detection logic directly through YARA-based workflows.
+
+---
+
 ## 🌐 Live Frontend
 
 We now have a **frontend interface** (located in `project/` folder) for easier scanning.
